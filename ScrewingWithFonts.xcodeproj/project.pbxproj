@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50A7058413C6A05A00F4C869 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A7058313C6A05A00F4C869 /* UIKit.framework */; };
+		50A7058613C6A05A00F4C869 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A7058513C6A05A00F4C869 /* Foundation.framework */; };
+		50A7058813C6A05A00F4C869 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A7058713C6A05A00F4C869 /* CoreGraphics.framework */; };
+		50A7058E13C6A05A00F4C869 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50A7058C13C6A05A00F4C869 /* InfoPlist.strings */; };
+		50A7059013C6A05A00F4C869 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7058F13C6A05A00F4C869 /* main.m */; };
+		50A7059413C6A05A00F4C869 /* ScrewingWithFontsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7059313C6A05A00F4C869 /* ScrewingWithFontsAppDelegate.m */; };
+		50A7059613C6A05A00F4C869 /* ScrewingWithFontsViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 50A7059513C6A05A00F4C869 /* ScrewingWithFontsViewController.h */; };
+		50A7059813C6A05A00F4C869 /* ScrewingWithFontsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50A7059713C6A05A00F4C869 /* ScrewingWithFontsViewController.m */; };
+		50A7059B13C6A05B00F4C869 /* ScrewingWithFontsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50A7059913C6A05B00F4C869 /* ScrewingWithFontsViewController.xib */; };
+		50A705A213C6A06D00F4C869 /* wisdom_script.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 50A705A113C6A06D00F4C869 /* wisdom_script.ttf */; };
+		50A705A513C6A37E00F4C869 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A705A313C6A37E00F4C869 /* background@2x.png */; };
+		50A705A613C6A37E00F4C869 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A705A413C6A37E00F4C869 /* background.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50A7057F13C6A05A00F4C869 /* ScrewingWithFonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrewingWithFonts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50A7058313C6A05A00F4C869 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		50A7058513C6A05A00F4C869 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		50A7058713C6A05A00F4C869 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		50A7058B13C6A05A00F4C869 /* ScrewingWithFonts-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScrewingWithFonts-Info.plist"; sourceTree = "<group>"; };
+		50A7058D13C6A05A00F4C869 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		50A7058F13C6A05A00F4C869 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50A7059113C6A05A00F4C869 /* ScrewingWithFonts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScrewingWithFonts-Prefix.pch"; sourceTree = "<group>"; };
+		50A7059213C6A05A00F4C869 /* ScrewingWithFontsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrewingWithFontsAppDelegate.h; sourceTree = "<group>"; };
+		50A7059313C6A05A00F4C869 /* ScrewingWithFontsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrewingWithFontsAppDelegate.m; sourceTree = "<group>"; };
+		50A7059513C6A05A00F4C869 /* ScrewingWithFontsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrewingWithFontsViewController.h; sourceTree = "<group>"; };
+		50A7059713C6A05A00F4C869 /* ScrewingWithFontsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrewingWithFontsViewController.m; sourceTree = "<group>"; };
+		50A7059A13C6A05B00F4C869 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ScrewingWithFontsViewController.xib; sourceTree = "<group>"; };
+		50A705A113C6A06D00F4C869 /* wisdom_script.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = wisdom_script.ttf; sourceTree = "<group>"; };
+		50A705A313C6A37E00F4C869 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		50A705A413C6A37E00F4C869 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50A7057C13C6A05A00F4C869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A7058413C6A05A00F4C869 /* UIKit.framework in Frameworks */,
+				50A7058613C6A05A00F4C869 /* Foundation.framework in Frameworks */,
+				50A7058813C6A05A00F4C869 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50A7057413C6A05A00F4C869 = {
+			isa = PBXGroup;
+			children = (
+				50A7058913C6A05A00F4C869 /* ScrewingWithFonts */,
+				50A7058213C6A05A00F4C869 /* Frameworks */,
+				50A7058013C6A05A00F4C869 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50A7058013C6A05A00F4C869 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50A7057F13C6A05A00F4C869 /* ScrewingWithFonts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50A7058213C6A05A00F4C869 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50A7058313C6A05A00F4C869 /* UIKit.framework */,
+				50A7058513C6A05A00F4C869 /* Foundation.framework */,
+				50A7058713C6A05A00F4C869 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		50A7058913C6A05A00F4C869 /* ScrewingWithFonts */ = {
+			isa = PBXGroup;
+			children = (
+				50A705A113C6A06D00F4C869 /* wisdom_script.ttf */,
+				50A705A313C6A37E00F4C869 /* background@2x.png */,
+				50A705A413C6A37E00F4C869 /* background.png */,
+				50A7059213C6A05A00F4C869 /* ScrewingWithFontsAppDelegate.h */,
+				50A7059313C6A05A00F4C869 /* ScrewingWithFontsAppDelegate.m */,
+				50A7059513C6A05A00F4C869 /* ScrewingWithFontsViewController.h */,
+				50A7059713C6A05A00F4C869 /* ScrewingWithFontsViewController.m */,
+				50A7059913C6A05B00F4C869 /* ScrewingWithFontsViewController.xib */,
+				50A7058A13C6A05A00F4C869 /* Supporting Files */,
+			);
+			path = ScrewingWithFonts;
+			sourceTree = "<group>";
+		};
+		50A7058A13C6A05A00F4C869 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50A7058B13C6A05A00F4C869 /* ScrewingWithFonts-Info.plist */,
+				50A7058C13C6A05A00F4C869 /* InfoPlist.strings */,
+				50A7058F13C6A05A00F4C869 /* main.m */,
+				50A7059113C6A05A00F4C869 /* ScrewingWithFonts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50A7057E13C6A05A00F4C869 /* ScrewingWithFonts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50A7059E13C6A05B00F4C869 /* Build configuration list for PBXNativeTarget "ScrewingWithFonts" */;
+			buildPhases = (
+				50A7057B13C6A05A00F4C869 /* Sources */,
+				50A7057C13C6A05A00F4C869 /* Frameworks */,
+				50A7057D13C6A05A00F4C869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrewingWithFonts;
+			productName = ScrewingWithFonts;
+			productReference = 50A7057F13C6A05A00F4C869 /* ScrewingWithFonts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50A7057613C6A05A00F4C869 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 50A7057913C6A05A00F4C869 /* Build configuration list for PBXProject "ScrewingWithFonts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50A7057413C6A05A00F4C869;
+			productRefGroup = 50A7058013C6A05A00F4C869 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50A7057E13C6A05A00F4C869 /* ScrewingWithFonts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50A7057D13C6A05A00F4C869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A7058E13C6A05A00F4C869 /* InfoPlist.strings in Resources */,
+				50A7059613C6A05A00F4C869 /* ScrewingWithFontsViewController.h in Resources */,
+				50A7059B13C6A05B00F4C869 /* ScrewingWithFontsViewController.xib in Resources */,
+				50A705A213C6A06D00F4C869 /* wisdom_script.ttf in Resources */,
+				50A705A513C6A37E00F4C869 /* background@2x.png in Resources */,
+				50A705A613C6A37E00F4C869 /* background.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50A7057B13C6A05A00F4C869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50A7059013C6A05A00F4C869 /* main.m in Sources */,
+				50A7059413C6A05A00F4C869 /* ScrewingWithFontsAppDelegate.m in Sources */,
+				50A7059813C6A05A00F4C869 /* ScrewingWithFontsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50A7058C13C6A05A00F4C869 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A7058D13C6A05A00F4C869 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		50A7059913C6A05B00F4C869 /* ScrewingWithFontsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50A7059A13C6A05B00F4C869 /* en */,
+			);
+			name = ScrewingWithFontsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50A7059C13C6A05B00F4C869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50A7059D13C6A05B00F4C869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50A7059F13C6A05B00F4C869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrewingWithFonts/ScrewingWithFonts-Prefix.pch";
+				INFOPLIST_FILE = "ScrewingWithFonts/ScrewingWithFonts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		50A705A013C6A05B00F4C869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ScrewingWithFonts/ScrewingWithFonts-Prefix.pch";
+				INFOPLIST_FILE = "ScrewingWithFonts/ScrewingWithFonts-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50A7057913C6A05A00F4C869 /* Build configuration list for PBXProject "ScrewingWithFonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A7059C13C6A05B00F4C869 /* Debug */,
+				50A7059D13C6A05B00F4C869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50A7059E13C6A05B00F4C869 /* Build configuration list for PBXNativeTarget "ScrewingWithFonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50A7059F13C6A05B00F4C869 /* Debug */,
+				50A705A013C6A05B00F4C869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50A7057613C6A05A00F4C869 /* Project object */;
+}
